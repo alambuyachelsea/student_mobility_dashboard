@@ -13,10 +13,12 @@ The prototype will allow students who want to study in universities in the Balti
     pip install streamlit
 2. Navigate to the app directory and run:
     streamlit run app.py
-    A browser window will open with the dashboard. 
+    A browser window will open with the dashboard to interact with as below. 
 
-[Watch the video](app/media/dashboard_in_action.mp4)
-
+<video width="320" height="240" controls>
+  <source src="app/media/dashboard_in_action.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Limited Functionality and Future Feature Implementation
 At this moment the protype has limited functionality with only Linneaus university as the only school with a write up. An interesting future implementation would be to have a language model generate details about the university based on the data of the filters selected by the user so that each university page is not hard coded.
