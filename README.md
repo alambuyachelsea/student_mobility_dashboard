@@ -15,8 +15,8 @@ The prototype will allow students who want to study in universities in the Balti
     streamlit run app.py
     A browser window will open with the dashboard. 
 
-[Watch the video](app/media/dashboard_in_action.mp4)
+![Watch the video](app/media/dashboard_in_action.mp4)
 
 
 ### Limited Functionality and Future Feature Implementation
-At this moment the protype i
+At this moment the protype has limited functionality with only Linneaus university as the only school with a write up. An interesting future implementation would be to have a language model generate details about the university based on the data of the filters selected by the user so that each university page is not hard coded.
