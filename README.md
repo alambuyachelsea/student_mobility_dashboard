@@ -15,7 +15,7 @@ The prototype will allow students who want to study in universities in the Balti
     streamlit run app.py
     A browser window will open with the dashboard. 
 
-![Watch the video](app/media/dashboard_in_action.mp4)
+[Watch the video](app/media/dashboard_in_action.mp4)
 
 
 ### Limited Functionality and Future Feature Implementation
