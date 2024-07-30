@@ -1,6 +1,6 @@
 # Student Mobility Dashboard
 
-![Dashboard](app\media\dashboard.png)
+![Dashboard](app/media/dashboard.png)
 
 This dashboard is a prototype created for the Baltic Hackathon 2024 Base Camp. The task was to create a student mobility dashboard for the Baltic Sea Region: Enhancing the academic experience through accessible data.
 
@@ -15,7 +15,7 @@ The prototype will allow students who want to study in universities in the Balti
     streamlit run app.py
     A browser window will open with the dashboard. 
 
-[Watch the video](app\media\dashboard_in_action.mp4)
+[Watch the video](app/media/dashboard_in_action.mp4)
 
 
 ### Limited Functionality and Future Feature Implementation
