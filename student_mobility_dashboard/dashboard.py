@@ -38,7 +38,7 @@ def read_file(file_path):
                 language_support=int(language_support)
             )
             universities.append(university)
-        
+
     st.session_state.filtered_universities = universities
 
     return header
@@ -85,10 +85,9 @@ def filter_universities(universities):
     selected = []
 
     for school in universities:
-        if school.name == "Lunar Harbor College":
+        if school.name == "Linneaus University":
             selected.append(school)
 
-    print(selected)
     return selected
 
 
@@ -124,7 +123,7 @@ def populate_filters(header, container):
 
                         case "Country":
                             create_checkboxes(
-                                ["Mystara", "Brimstone", "Solari"], "Country")
+                                ["Sweden", "Spain", "France", "Germany"], "Country")
 
                         case "Visa Assistance":
                             create_checkboxes(["Yes", "No"], "Visa Assistance")
@@ -147,14 +146,14 @@ def populate_filters(header, container):
 
                 except DuplicateWidgetID:
                     # Handle the exception by skipping the checkbox creation
-                    print(f"Duplicate widget ID encountered.")
+                    print("Duplicate widget ID encountered.")
 
         # Add the "Apply Filters" button
         if st.button("Apply Filters"):
             selected = []
 
             for school in universities:
-                if school.name == "Lunar Harbor College":
+                if school.name == "Linneaus University":
                     selected.append(school)
 
             st.session_state.filtered_universities = selected
@@ -225,7 +224,7 @@ def display_schools(universities, container):
                 with col:
                     if st.button("View Details", key=school.name):
                         st.session_state.selected_university = school
-                        st.session_state.current_page = 'lunar_harbour_college'
+                        st.session_state.current_page = 'linneaus_university'
                         st.experimental_rerun()
 
 
